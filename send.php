@@ -61,7 +61,7 @@ $_ZAP_ARRAY = array(
 
   $fields_string = http_build_query($_ZAP_ARRAY);
   $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, "https://hook.eu2.make.com/wwd5ip560tsewjakjkopjxnbfqwfgc4z");
+  curl_setopt($ch, CURLOPT_URL, "https://hook.eu2.make.com/rtmvpdcy8mpldx8hrqd28sghjvshnlc9");
   curl_setopt($ch, CURLOPT_POST, 1);
   curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string );
   $data = curl_exec($ch);
