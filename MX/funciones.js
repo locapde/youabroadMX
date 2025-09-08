@@ -103,12 +103,10 @@ function scrollFunction() {
         } else if (situacion == null) {
 	        $(".situacion").focus();
             return false;
-        } else if (situacion == "Estudiante") {
-            if (responsable == "") {
-                $(".responsable").focus();
+        } else if (situacion == "Estudiante" && responsable == "") {
+            $(".responsable").focus();
             return false;
-            }
-        }else {
+        } else {
             var datos = '&name='+ name + '&lastname=' + lastname + '&codepostal=' + codepostal + '&email=' + email + '&tel=' + tel + '&provincia=' + provincia + '&estudios=' + estudios + '&situacion=' + situacion + '&responsable=' + responsable + '&utm_campaign=' + utm_campaign + '&utm_source=' + utm_source + '&utm_medium=' + utm_medium + '&utm_term=' + utm_term;
              $.ajax({
                 type: "POST",
@@ -172,12 +170,10 @@ function scrollFunction() {
         } else if (situacion == null) {
 	        $(".situ").focus();
             return false;
-        } else if (situacion == "Estudiante") {
-            if (responsable == "") {
-                $(".responsable2").focus();
+        } else if (situacion == "Estudiante" && responsable == "") {
+            $(".responsable2").focus();
             return false;
-            }
-        }else {
+        } else {
             var datos = '&name='+ name + '&lastname=' + lastname + '&codepostal=' + codepostal + '&email=' + email + '&tel=' + tel + '&provincia=' + provincia + '&estudios=' + estudios + '&situacion=' + situacion + '&responsable=' + responsable + '&utm_campaign=' + utm_campaign + '&utm_source=' + utm_source + '&utm_medium=' + utm_medium + '&utm_term=' + utm_term;
              $.ajax({
                 type: "POST",
