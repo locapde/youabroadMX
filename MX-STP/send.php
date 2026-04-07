@@ -32,7 +32,7 @@
 */
 
 
-echo "EDAD: ".edad;
+echo "EDAD: ".$edad;
 
 	switch ($utm_source) {
 	    case 'scire_google_ads':
