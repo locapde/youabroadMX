@@ -2,7 +2,7 @@
 
 	$name = $_POST["name"];
 	$lastname = $_POST["lastname"];
-	$edad = $_POST["edad"];
+	$edad = $_POST["cp"];
 	$email = $_POST["email"];
 	$tel = $_POST["tel"];
 	$provincia = $_POST["provincia"];
