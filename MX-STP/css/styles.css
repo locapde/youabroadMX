@@ -322,6 +322,10 @@ h3{
   color: #000;
 }
 
+.icon-italy{
+	width: 60px !important;
+}
+
 .it-icon svg {
   width: 45px;
   height: 40px;
