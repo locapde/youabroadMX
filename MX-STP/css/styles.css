@@ -305,8 +305,35 @@ h3{
 }
 .icon-block img{
 	border-radius: 10%;
-	width: 200px;
+	width: 60px;
 }
+.icon-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.eu-icon svg {
+  width: 45px;
+  height: 40px;
+  display: block;
+  margin: 0 auto; /* doble seguridad */
+  color: #000;
+}
+
+.it-icon svg {
+  width: 45px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  color: #000;
+}
+
+.it-icon-text{
+	margin-top: 1px !important;
+}
+
 .border-oferta{
         border: 10px solid #e50057;
 }

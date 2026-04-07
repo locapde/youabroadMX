@@ -2,7 +2,7 @@
 
 	$name = $_POST["name"];
 	$lastname = $_POST["lastname"];
-	$codepostal = $_POST["codepostal"];
+	$edad = $_POST["edad"];
 	$email = $_POST["email"];
 	$tel = $_POST["tel"];
 	$provincia = $_POST["provincia"];
@@ -45,7 +45,7 @@
 $_ZAP_ARRAY = array(
     "name" => $name,
 	"lastname" => $lastname,
-	"codepostal" => $codepostal,
+	"codepostal" => $edad,
 	"email" => $email,
 	"tel" => $tel,
 	"provincia" => $provincia,

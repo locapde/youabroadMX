@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <input type="text" class="apellidos half" name="apellido" placeholder="Apellidos" required="">
                     <input type="email" class="email half" name="email" placeholder="Email" required="">
                     <input type="text" class="telefono half" name="telefono" placeholder="Teléfono" required="">
-                    <input type="text" class="cp half" name="cp" placeholder="Código Postal" required="">
+                    <input type="text" class="cp half" name="edad" placeholder="Edad" required="" inputmode="numeric" pattern="[0-9]*">
                     <select class="half provincia" aria-required="true" aria-invalid="false" name="provincia">
 	                    <option selected="selected" value="provincia" disabled="disabled">Estado de residencia</option>
                       <option value="Aguascalientes">Aguascalientes</option>
@@ -125,12 +125,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	                	<select name="estudios" class="half estudios" aria-required="true" aria-invalid="false">
-                      <option selected="selected" value="estudios" disabled="disabled">Selecciona tu grado</option>
-                      <option value="1 secundaria">1º Educación secundaria</option>
-                      <option value="2 secundaria">2º Educación secundaria</option>
-                      <option value="3 secundaria">3º Educación secundaria</option>
-                      <option value="4 secundaria">1º de Bachillerato o Preparatoria</option>
-                      <option value="1 Preparatoria">2º y 3º de Bachillerato o Preparatoria</option>
+                      <option selected="selected" value="estudios" disabled="disabled">Idioma a estudiar</option>
+                      <option value="ingles">Inglés</option>
+                      <option value="frances">Francés</option>
+                      <option value="aleman">Alemán</option>
+                      <option value="italiano">Italiano</option>
                     </select>
 
 
@@ -177,7 +176,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		  	<div class="icon-text">
 			  	<h4>ESTADOS UNIDOS</h4>
           <p>¡Vive tu propia película americana! Conoce a nuestro país vecino, participa
-en actividades recreativas y crea networking</p>
+en actividades recreativas y crea networking.</p>
                                 <!--<h5 class="promocion">Promoción por tiempo limitado</h5>-->
 		  	</div>
 		  </div>
@@ -187,7 +186,7 @@ en actividades recreativas y crea networking</p>
           <img src="img/reino_unido.jpeg" />
       </div>
         <div class="icon-text">
-          <h4>UK</h4>
+          <h4>Reino Unido</h4>
           <p>Disfruta de un país vibrante mientras recorres lugares llenos de historia. Pon
 en práctica el clásico acento británico mientras disfrutas de una buena taza de té.</p>
         </div>
@@ -241,8 +240,7 @@ el corazón de Europa.</p>
       </div>
         <div class="icon-text">
           <h4>ITALIA</h4>
-          <p>¿Te apasiona el francés y la elegancia? ¡Entonces Francia es el destino
-perfecto para ti!</p>
+          <p>¡Un país encantador y con la mejor cocina de Europa! Aprenderás italiano y harás amigos muy fácilmente mientras comes una deliciosa <i>pasta al pomodoro</i>.</p>
         </div>
       </div>
 
@@ -254,7 +252,7 @@ perfecto para ti!</p>
         <div class="icon-text">
           <h4>FRANCIA</h4>
           <p>¿Te apasiona el francés y la elegancia? ¡Entonces Francia es el destino
-perfecto para ti!.</p>
+perfecto para ti!</p>
         </div>
       </div>
 
@@ -304,7 +302,7 @@ una cultura totalmente distinta y asombrosa.</p>
  <p>El inglés es el idioma con el cual te puedes comunicar en prácticamente cualquier parte del mundo. Si lo hablas, podrás tener acceso directo a todo un mundo de posibilidades, desde científicas hasta artísticas. ¡No pierdas la oportunidad de aprenderlo mientras vives una experiencia única en el extranjero!
 </p>
 <p>
-  Nuestros Summer Camps están pensados para niños y adolescentes, ¡cuánto
+  Nuestros Summer Camps están pensados para niños y adolescentes, ¡cuanto
 antes, mejor! Por otro lado, los cursos de idioma son para mayores de edad. Las
 lenguas se aprenden mejor cuando entras en contacto directo con ellas. Y no te
 preocupes por tu nivel, nuestros programas son para todos, desde principiantes
@@ -367,11 +365,10 @@ tus preferencias de idioma y destino.</p>
 YouAbroad sabemos lo importante que es contar con la compañía y el apoyo de
 alguien que te entienda. Por ello, todos los estudiantes que eligen uno de los
 programas lingüísticos de YouAbroad cuentan con un profesional de nuestro
-equipo de apoyo al que pueden contactar c
-uando lo necesiten.
+Equipo de Apoyo al que pueden contactar cuando lo necesiten.
 </p><p>Es una persona que habla tu idioma, que está especializada en psicología
 evolutiva y con la que puedes hablar de cualquier inquietud personal. ¡Es como
-un@ herman@ mayor!.</p>
+un@ herman@ mayor!</p>
 
     </div>
 
@@ -391,23 +388,61 @@ un@ herman@ mayor!.</p>
   <div class="max-width">
     <h2>¿Por qué YouAbroad?</h2>
     <div class="icons">
+      
       <div class="icon-block">
-        <div class="icon-icon">
-          <i class="fas fa-home"></i>
-      </div>
+        <div class="icon-icon eu-icon">
+          <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Fondo negro -->
+            <rect width="100" height="70" fill="currentColor"/>
+
+            <!-- Estrella base -->
+            <defs>
+              <polygon id="star" points="0,-4 1.2,-1.2 4,-1.2 1.6,0.5 2.4,3.2 0,1.6 -2.4,3.2 -1.6,0.5 -4,-1.2 -1.2,-1.2"/>
+            </defs>
+
+            <!-- Estrellas en blanco -->
+            <g fill="#ffffff" transform="translate(50,35)">
+              <use href="#star" transform="rotate(0) translate(0,-20)"/>
+              <use href="#star" transform="rotate(30) translate(0,-20)"/>
+              <use href="#star" transform="rotate(60) translate(0,-20)"/>
+              <use href="#star" transform="rotate(90) translate(0,-20)"/>
+              <use href="#star" transform="rotate(120) translate(0,-20)"/>
+              <use href="#star" transform="rotate(150) translate(0,-20)"/>
+              <use href="#star" transform="rotate(180) translate(0,-20)"/>
+              <use href="#star" transform="rotate(210) translate(0,-20)"/>
+              <use href="#star" transform="rotate(240) translate(0,-20)"/>
+              <use href="#star" transform="rotate(270) translate(0,-20)"/>
+              <use href="#star" transform="rotate(300) translate(0,-20)"/>
+              <use href="#star" transform="rotate(330) translate(0,-20)"/>
+            </g>
+
+          </svg>
+        </div>
+
         <div class="icon-text">
           <h4>YouAbroad es de origen europeo</h4>
         </div>
       </div>
 
+
+
+
+
+
+
+
       <div class="icon-block">
         <div class="icon-icon">
-          <i class="fas fa-pizza-slice"></i>
+          <img src="img/italy.svg" />
       </div>
-        <div class="icon-text">
+
+        <div class="icon-text it-icon-text">
           <h4>Empresa fundada en Italia en el 2010</h4>
         </div>
       </div>
+
+
 
 
 
@@ -425,7 +460,7 @@ un@ herman@ mayor!.</p>
           <i class="fas fa-user-shield"></i>
       </div>
         <div class="icon-text">
-          <h4>Proceso de selección estricto de las familias de anfitrionas</h4>
+          <h4>Proceso de selección estricto de las familias anfitrionas</h4>
         </div>
       </div>
     </div>
@@ -483,7 +518,7 @@ un@ herman@ mayor!.</p>
 
 
 
-
+<!--
 <div class="testimonios">
 
 	  <h2>Testimonios reales</h2>
@@ -523,7 +558,7 @@ horas del día</strong>, incluso cuando mi hijo ya estaba en el extranjero.</p>
   </div>
 
 
-
+-->
 
 
 
@@ -569,7 +604,7 @@ horas del día</strong>, incluso cuando mi hijo ya estaba en el extranjero.</p>
                     <input type="text" class="lastname half" name="apellido" placeholder="Apellidos" required="">
                     <input type="email" class="correo half" name="email" placeholder="Email" required="">
                     <input type="text" class="telf half" name="telefono" placeholder="Teléfono" required="">
-                    <input type="text" class="cpostal half" name="cp" placeholder="Código Postal" required="">
+                    <input type="text" class="cpostal half" name="edad" placeholder="Edad" inputmode="numeric" pattern="[0-9]*" required="">
                     <select class="half provi" aria-required="true" aria-invalid="false" name="provincia">
 	                    <option selected="selected" value="provincia" disabled="disabled">Estado de residencia</option>
                       <option value="Aguascalientes">Aguascalientes</option>
@@ -606,13 +641,12 @@ horas del día</strong>, incluso cuando mi hijo ya estaba en el extranjero.</p>
                       <option value="Zacatecas">Zacatecas</option></select>
 
 
-	                	<select name="estu" class="half estu" aria-required="true" aria-invalid="false">
-                      <option selected="selected" value="estudios" disabled="disabled">Selecciona tu grado</option>
-                      <option value="1 secundaria">1º Educación secundaria</option>
-                      <option value="2 secundaria">2º Educación secundaria</option>
-                      <option value="3 secundaria">3º Educación secundaria</option>
-                      <option value="4 secundaria">1º de Bachillerato o Preparatoria</option>
-                      <option value="1 Preparatoria">2º y 3º de Bachillerato o Preparatoria</option>
+	                	<select name="estudios" class="half estudios" aria-required="true" aria-invalid="false">
+                      <option selected="selected" value="estudios" disabled="disabled">Idioma a estudiar</option>
+                      <option value="ingles">Inglés</option>
+                      <option value="frances">Francés</option>
+                      <option value="aleman">Alemán</option>
+                      <option value="italiano">Italiano</option>
                     </select>
 
 
