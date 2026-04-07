@@ -32,6 +32,8 @@
 */
 
 
+echo "EDAD: ".edad;
+
 	switch ($utm_source) {
 	    case 'scire_google_ads':
 	        $nota = "Google ADS";
