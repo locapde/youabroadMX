@@ -2,7 +2,7 @@
 
 	$name = $_POST["name"];
 	$lastname = $_POST["lastname"];
-	$edad = $_POST["cp"];
+	$edad = $_POST["codepostal"];
 	$email = $_POST["email"];
 	$tel = $_POST["tel"];
 	$provincia = $_POST["provincia"];
@@ -31,8 +31,6 @@
 	$utm_medium = "cpc";
 */
 
-
-echo "EDAD: ".$edad;
 
 	switch ($utm_source) {
 	    case 'scire_google_ads':
