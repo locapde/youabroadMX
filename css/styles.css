@@ -14,7 +14,7 @@ body{
 	margin: 0 auto;
 }
 .header{
-	background: url("../img/multiimage-youabroad.jpg") no-repeat center top;
+	background: url("../img/general.jpg") no-repeat center top;
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -180,6 +180,7 @@ h2{
 
 .header-form{
 	display: flex;
+	margin: auto;
 	width: 40%;
 	background-color: #9f4188;
 	padding: 40px;

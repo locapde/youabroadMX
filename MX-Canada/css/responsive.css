@@ -1,5 +1,11 @@
 @media (max-width: 768px) {
 
+	.header{
+		background: url("../img/CANADA.jpg") no-repeat right top;
+		min-height: 90vh;
+		background-size: cover;
+	}
+
 	.scrolling-var .header-menu {
     	padding: 10px 2%;
     	width: 95%;

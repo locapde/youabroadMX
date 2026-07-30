@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
 
 	.header{
-	background: url("../img/header_europa_mobile.png") no-repeat center top;
+	background: url("../img/EUROPA.jpg") no-repeat top top;
+	min-height: 40vh;
 }
 
 	.scrolling-var .header-menu {

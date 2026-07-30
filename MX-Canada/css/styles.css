@@ -22,7 +22,7 @@ body{
   z-index: 10;
 }
 .header{
-	background: url("../img/header_landing_Canada.png") no-repeat center top;
+	background: url("../img/CANADA.jpg") no-repeat center top;
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -181,7 +181,6 @@ h2{
 	z-index: 1;
 	padding-right: 10%;
 	vertical-align: middle;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
@@ -191,6 +190,7 @@ h2{
 
 .header-form{
 	display: flex;
+    margin: auto;
 	width: 40%;
 	background-color: #9f4188;
 	padding: 40px;

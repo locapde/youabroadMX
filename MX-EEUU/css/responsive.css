@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+	.header{
+		min-height: 80vh;
+	}
+
 	.scrolling-var .header-menu {
     	padding: 10px 2%;
     	width: 95%;
